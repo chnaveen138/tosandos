@@ -1,0 +1,75 @@
+#mainbody{
+	margin: 10% auto;
+	width: 400px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+	background-color: #cce6ff;
+}
+.done{
+	color: gray;
+	text-decoration: line-through;
+}
+li{
+	background-color: white;
+	height: 40px;
+	line-height: 40px;
+	font-size: 22px;
+	color: #334d4d;
+}
+li:nth-child(2n){
+	background-color: #cce6ff;
+}
+h1{
+	background-color: #4d79ff;
+	color: white;
+	font-size: 27px;
+	font-weight: normal;
+	padding: 10px 20px;
+	margin: 0;
+	font-family: 'Spectral SC', serif;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+input{
+	margin-top: 0;
+	width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+	padding: 13px 13px 13px 20px;
+	background-color: #cce6ff;
+	color: #4d79ff;
+	font-size: 22px;
+	border-style: none;
+}
+input:focus{
+	background: #ffffff;
+	border: 3px solid #4d79ff;
+}
+body{
+	background-image: url("http://vunature.com/wp-content/uploads/2016/11/sky-nature-beautiful-blue-clouds-night-images-1920x1080.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fa-pencil-square-o{
+	padding-top: 8px;
+	float: right;
+}
+span{
+	margin-right: 20px;
+	height: 40px;
+	text-align: center;
+	width: 0;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+li:hover span{
+	background-color: #4d79ff;
+	display: inline-block;
+	width: 40px;
+	opacity: 1.0;
+}
